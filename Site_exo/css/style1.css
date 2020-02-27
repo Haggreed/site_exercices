@@ -18,3 +18,87 @@ html{
     font-family: Akronim;
     font-size: 150%; 
 }
+.BigTall{
+    font-size: 125%;
+}
+.small{width: 150px;height: 150px;}
+.medium{width: 250px;height: 250px;}
+.large{width: 500px;height: 500px;}
+
+
+/*img:hover {
+  /* Toggle our animation play state to running when we are hovering over our sticker 
+    animation: flip-scale-2-ver-left 2s linear both;
+    animation-play-state: running; 
+}*/
+/*img:hover {
+	-webkit-animation: slide-rotate-hor-t-fwd 0.5s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+	        animation: slide-rotate-hor-t-fwd 0.5s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+            animation-play-state: running; 
+}*/
+
+
+/*@-webkit-keyframes slide-rotate-hor-t-fwd {
+  0% {
+    -webkit-transform: translateY(0) translateZ(0) rotateX(0deg);
+            transform: translateY(0) translateZ(0) rotateX(0deg);
+    -webkit-transform-origin: bottom center;
+            transform-origin: bottom center;
+  }
+  100% {
+    -webkit-transform: translateY(-150px) translateZ(130px) rotateX(-90deg);
+            transform: translateY(-150px) translateZ(130px) rotateX(-90deg);
+    -webkit-transform-origin: bottom center;
+            transform-origin: bottom center;
+  }
+}
+@keyframes slide-rotate-hor-t-fwd {
+  0% {
+    -webkit-transform: translateY(0) translateZ(0) rotateX(0deg);
+            transform: translateY(0) translateZ(0) rotateX(0deg);
+    -webkit-transform-origin: bottom center;
+            transform-origin: bottom center;
+  }
+  100% {
+    -webkit-transform: translateY(-150px) translateZ(130px) rotateX(-90deg);
+            transform: translateY(-150px) translateZ(130px) rotateX(-90deg);
+    -webkit-transform-origin: bottom center;
+            transform-origin: bottom center;
+  }
+}*/
+.container {
+  position: relative;
+  width: 100%;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: auto;
+  width: auto;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgb(156, 20, 184);
+}
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 12px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+/*9#hiddenImage {
+  /* Toggle our animation play state to running when we are hovering over our sticker 
+    display: none;
+    animation: showimage 0.5s;
+}*/
+
+
