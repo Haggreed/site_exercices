@@ -1,0 +1,20 @@
+body{
+    margin: 0;
+}
+html{
+    background: linear-gradient(white ,cyan );
+}
+
+.title{
+    text-align: center;
+    color: rgb(46, 13, 192);
+    margin-top: 40px;
+    margin-right: 230px;
+    margin-left: 230px;
+    font-family: Akronim ;
+    font-size: 200%;
+}
+.BTitle{
+    font-family: Akronim;
+    font-size: 150%; 
+}
