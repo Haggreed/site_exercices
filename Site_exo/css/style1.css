@@ -21,11 +21,12 @@ html{
 }
 .BigTall{
     font-size: 125%;
+    
 }
 table{
     margin: auto;
 }
-.small{width: 150px;height: 150px;}
+.small{width: auto;height: auto;}
 .medium{width: 250px;height: 250px;}
 .large{width: 500px;height: 500px;}
 
