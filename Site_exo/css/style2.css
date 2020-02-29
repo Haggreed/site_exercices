@@ -2,13 +2,22 @@ body{
     margin: 0;
 }
 
-/*html{
+html{
     background: linear-gradient(white ,cyan , blue);
-}*/
+}
 .Font{
     font-family: Akronim;
+    color: magenta;
 }
-
+.premierTable{
+    float: left;
+    float: bottom;
+    margin-left: 0;
+    margin-bottom: 200px; 
+}
+#descdarwin{
+    float: bottom;
+}
 .title{
     text-align: center;
     color: rgb(46, 13, 192);
@@ -34,13 +43,14 @@ div{
 #BTitle{
     font-family: Akronim;
     font-size: 150%; 
+    margin: auto;
 }
 .BigTall{
     font-size: 125%;
     
 }
-table{
-    margin: auto;
+.OnLine{
+    display: inline;
 }
 .small{width: auto;height: auto;}
 .medium{width: 250px;height: 250px;}
