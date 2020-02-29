@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+}
+
+/*html{
+    background: linear-gradient(white ,cyan , blue);
+}*/
+.Font{
+    font-family: Akronim;
+}
+
+.title{
+    text-align: center;
+    color: rgb(46, 13, 192);
+    margin-top: 40px;
+    margin-right: 230px;
+    margin-left: 230px;
+    font-family: Akronim ;
+    font-size: 200%;
+}
+div{
+    width: 180px;
+    height: 250px;
+    animation: infinite;
+    animation-name: example;
+    animation-duration: 12s;
+}
+@-webkit-keyframes example {
+  25%   {background-image: url("../images/D.Game.png")}
+  50%  {background-image: url("../images/DRS.png");}
+  75%  {background-image: url("../images/DS.png");}
+  100% {background-image: url("../images/FW.png");}
+}
+#BTitle{
+    font-family: Akronim;
+    font-size: 150%; 
+}
+.BigTall{
+    font-size: 125%;
+    
+}
+table{
+    margin: auto;
+}
+.small{width: auto;height: auto;}
+.medium{width: 250px;height: 250px;}
+.large{width: 500px;height: 500px;}

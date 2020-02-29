@@ -15,7 +15,10 @@ html{
     font-family: Akronim ;
     font-size: 200%;
 }
-.BTitle{
+/*#backTitle{
+   background-image: 
+}*/
+#BTitle{
     font-family: Akronim;
     font-size: 150%; 
 }
