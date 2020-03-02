@@ -32,13 +32,30 @@ div{
     height: 250px;
     animation: infinite;
     animation-name: example;
-    animation-duration: 12s;
+    animation-duration: 36s;
 }
 @-webkit-keyframes example {
-  25%   {background-image: url("../images/D.Game.png")}
-  50%  {background-image: url("../images/DRS.png");}
-  75%  {background-image: url("../images/DS.png");}
-  100% {background-image: url("../images/FW.png");}
+
+  0%   {background-image: url("../images/D.Game1.png")}
+  5%   {background-image: url("../images/D.Game2.png")}
+  10%   {background-image: url("../images/D.Game3.png")}
+  15%   {background-image: url("../images/D.Game4.png")}
+  20%   {background-image: url("../images/D.Game5.png")}
+  25%   {background-image: url("../images/D.Game6.png")}
+  30%   {background-image: url("../images/D.Game7.png")}
+  35%   {background-image: url("../images/D.Game8.png")}
+  40%   {background-image: url("../images/D.Game9.png")}
+  45%   {background-image: url("../images/D.Game10.png")}
+  50%   {background-image: url("../images/D.Game11.png")}
+  55%   {background-image: url("../images/D.Game12.png")}
+  60%   {background-image: url("../images/D.Game13.png")}
+  65%   {background-image: url("../images/D.Game14.png")}
+  70%   {background-image: url("../images/D.Game15.png")}
+  75%   {background-image: url("../images/D.Game16.png")}
+  80%   {background-image: url("../images/D.Game17.png")}
+  85%   {background-image: url("../images/D.Game18.png")}
+  90%   {background-image: url("../images/D.Game.png")}
+  95%   {background-image: url("../images/D.Game.png")}
 }
 #BTitle{
     font-family: Akronim;
@@ -49,8 +66,8 @@ div{
     font-size: 125%;
     
 }
-.OnLine{
-    display: inline;
+.videomargin{
+    margin: 0;
 }
 .small{width: auto;height: auto;}
 .medium{width: 250px;height: 250px;}
