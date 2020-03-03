@@ -15,9 +15,33 @@ html{
     font-family: Akronim ;
     font-size: 200%;
 }
-/*#backTitle{
-   background-image: 
-}*/
+.flip-card{
+    height: 300px;
+    width: 180px;
+    }
+.flip-card-inner{
+    width: auto;
+    height: auto;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+.flip-card:hover .front{
+    opacity: 0;
+}
+.front{
+    z-index: 1;
+    position: absolute;
+    width: auto;
+    height: auto;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+.back{
+    position: absolute;
+    text-align: center;
+}
+
 #BTitle{
     font-family: Akronim;
     font-size: 150%; 

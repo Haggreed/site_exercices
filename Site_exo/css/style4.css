@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+}
+
+html{
+    background: linear-gradient(white ,cyan , blue);
+}
+.Font{
+    font-family: Akronim;
+    color: magenta;
+}
+.premierTable{
+    float: left;
+    float: bottom;
+    margin-left: 0;
+    margin-bottom: 200px; 
+}
+#descdarwin{
+    float: bottom;
+}
+.title{
+    text-align: center;
+    color: rgb(46, 13, 192);
+    margin-top: 40px;
+    margin-right: 230px;
+    margin-left: 230px;
+    font-family: Akronim ;
+    font-size: 200%;
+}
+div{
+    width: 180px;
+    height: 250px;
+    animation: infinite;
+    animation-name: example;
+    animation-duration: 27s;
+}
+@-webkit-keyframes example {
+
+  0%    {background-image: url("../images/Assassination-Classroom01.png")}
+  5%    {background-image: url("../images/Assassination-Classroom02.png")}
+  10%   {background-image: url("../images/Assassination-Classroom03.png")}
+  15%   {background-image: url("../images/Assassination-Classroom04.png")}
+  20%   {background-image: url("../images/Assassination-Classroom05.png")}
+  25%   {background-image: url("../images/Assassination-Classroom06.png")}
+  30%   {background-image: url("../images/Assassination-Classroom07.png")}
+  35%   {background-image: url("../images/Assassination-Classroom08.png")}
+  40%   {background-image: url("../images/Assassination-Classroom09.png")}
+  45%   {background-image: url("../images/Assassination-Classroom10.png")}
+  50%   {background-image: url("../images/Assassination-Classroom11.png")}
+  55%   {background-image: url("../images/Assassination-Classroom12.png")}
+  60%   {background-image: url("../images/Assassination-Classroom13.png")}
+  65%   {background-image: url("../images/Assassination-Classroom14.png")}
+  70%   {background-image: url("../images/Assassination-Classroom15.png")}
+  75%   {background-image: url("../images/Assassination-Classroom16.png")}
+  80%   {background-image: url("../images/Assassination-Classroom17.png")}
+  85%   {background-image: url("../images/Assassination-Classroom18.png")}
+  90%   {background-image: url("../images/Assassination-Classroom19.png")}
+  95%   {background-image: url("../images/Assassination-Classroom20.png")}
+  100%   {background-image: url("../images/Assassination-Classroom21.png")}
+}
+#BTitle{
+    font-family: Akronim;
+    font-size: 150%; 
+    margin: auto;
+}
+.BigTall{
+    font-size: 125%;
+    
+}
+.videomargin{
+    margin: 0;
+}
+.small{width: auto;height: auto;}
+.medium{width: 250px;height: 250px;}
+.large{width: 500px;height: 500px;}
