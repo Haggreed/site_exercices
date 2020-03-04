@@ -142,7 +142,7 @@ div{
     
 }
 .videomargin{
-    margin: 0;
+    margin-left: 300px;
 }
 .small{width: auto;height: auto;}
 .medium{width: 250px;height: 250px;}

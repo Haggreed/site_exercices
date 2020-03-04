@@ -56,7 +56,7 @@ div{
   85%   {background-image: url("../images/Assassination-Classroom18.png")}
   90%   {background-image: url("../images/Assassination-Classroom19.png")}
   95%   {background-image: url("../images/Assassination-Classroom20.png")}
-  100%   {background-image: url("../images/Assassination-Classroom21.png")}
+  100%  {background-image: url("../images/Assassination-Classroom21.png")}
 }
 #BTitle{
     font-family: Akronim;
@@ -68,7 +68,7 @@ div{
     
 }
 .videomargin{
-    margin: 0;
+    margin-left: 300px;
 }
 .small{width: auto;height: auto;}
 .medium{width: 250px;height: 250px;}

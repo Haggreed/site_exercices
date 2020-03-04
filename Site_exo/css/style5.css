@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+}
+
+html{
+    background: linear-gradient(white ,cyan , blue);
+}
+.Font{
+    font-family: Akronim;
+    color: magenta;
+}
+.premierTable{
+    float: left;
+    float: bottom;
+    margin-left: 0;
+    margin-bottom: 200px; 
+}
+#descdarwin{
+    float: bottom;
+}
+.title{
+    text-align: center;
+    color: rgb(46, 13, 192);
+    margin-top: 40px;
+    margin-right: 230px;
+    margin-left: 230px;
+    font-family: Akronim ;
+    font-size: 200%;
+}
+div{
+    width: 180px;
+    height: 250px;
+    animation: infinite;
+    animation-name: example;
+    animation-duration: 27s;
+}
+@-webkit-keyframes example {
+
+  0%    {background-image: url("../images/Moi Quand Je Me Réincarne En Slime 01.png")}
+  10%   {background-image: url("../images/Moi Quand Je Me Réincarne En Slime 02.png")}
+  20%   {background-image: url("../images/Moi Quand Je Me Réincarne En Slime 03.png")}
+  20%   {background-image: url("../images/Moi Quand Je Me Réincarne En Slime 04.png")}
+  30%   {background-image: url("../images/Moi Quand Je Me Réincarne En Slime 05.png")}
+  40%   {background-image: url("../images/Moi Quand Je Me Réincarne En Slime 06.png")}
+  50%   {background-image: url("../images/Moi Quand Je Me Réincarne En Slime 07.png")}
+  60%   {background-image: url("../images/Moi Quand Je Me Réincarne En Slime 08.png")}
+  70%   {background-image: url("../images/Moi Quand Je Me Réincarne En Slime 09.png")}
+  80%   {background-image: url("../images/Moi Quand Je Me Réincarne En Slime 10.png")}
+  100%  {background-image: url("../images/Moi Quand Je Me Réincarne En Slime 01.png")}
+}
+#BTitle{
+    font-family: Akronim;
+    font-size: 150%; 
+    margin: auto;
+}
+.BigTall{
+    font-size: 125%;
+    
+}
+.videomargin{
+    margin-left: 300px;
+}
+.small{width: auto;height: auto;}
+.medium{width: 250px;height: 250px;}
+.large{width: 500px;height: 500px;}

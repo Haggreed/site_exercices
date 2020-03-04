@@ -1,0 +1,12 @@
+html{
+    background: linear-gradient(white ,cyan , blue);
+}
+#BTitle{
+    font-family: Akronim;
+    font-size: 150%; 
+    margin: auto;
+}
+.ABC{
+    font-family: Akronim;
+    margin: auto;
+}
