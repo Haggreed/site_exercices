@@ -15,6 +15,9 @@ html{
     font-family: Akronim ;
     font-size: 200%;
 }
+#div1{
+    margin: auto;
+}
 
 #BTitle{
     font-family: Akronim;
